@@ -32,7 +32,7 @@ GitHub Issues for this repo. See `docs/agents/issue-tracker.md`.
 
 ### Triage labels
 
-Default canonical labels: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+Default canonical labels: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`. Issues are judged against [`SCOPE.md`](./SCOPE.md).
 
 ### Domain docs
 

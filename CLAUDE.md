@@ -23,3 +23,17 @@ Every `SKILL.md` is either user-invoked (`disable-model-invocation: true` plus `
 To (re)link every skill outside `deprecated/` and `misc/` into the local harness skill directories (`~/.claude/skills`, `~/.agents/skills`), run `scripts/link-skills.sh`. Each entry is a symlink into this repo, so a `git pull` keeps installed skills current; re-run the script after adding, removing, or renaming a skill.
 
 No em-dashes anywhere in this repo's prose (`SKILL.md` files, docs, `README.md`, `CHANGELOG.md`, ADRs, changesets, code comments). Where a sentence reaches for one, rewrite it instead with a comma, colon, period, parentheses, or a conjunction, whichever the sentence actually wants; never do a blind character substitution.
+
+## Agent skills
+
+### Issue tracker
+
+GitHub Issues for this repo. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default canonical labels: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context layout with a root `GLOSSARY.md` and `docs/adr/`. See `docs/agents/domain.md`.

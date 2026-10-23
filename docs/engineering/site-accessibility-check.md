@@ -2,7 +2,7 @@
 
 `site-accessibility-check` reviews a live URL for accessibility risks and turns the findings into a short, actionable report. It is meant for a quick scan of a public page or a small set of representative pages, not a full legal audit.
 
-The skill starts by checking the actual page as a user would. It looks for keyboard issues, focus visibility, labels, heading structure, contrast, meaningful images, and other high-signal accessibility blockers. It then sorts findings into red flags and green flags, and wraps the result in a brief report with likely WCAG references and next steps.
+The skill starts by checking the actual page as a user would. It looks for keyboard issues, focus visibility, labels, heading structure, contrast, meaningful images, and other high-signal accessibility blockers. It then sorts findings into red flags and green flags, and wraps the result in a brief report with likely WCAG references and next steps. Each red flag includes the matching WCAG documentation link so the user can jump directly to the relevant guidance. For example, a link-purpose issue could point to [WCAG 2.4.4 Link Purpose](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context), and a focus problem could point to [WCAG 2.4.7 Focus Visible](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible).
 
 ## When to reach for it
 

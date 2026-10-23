@@ -66,26 +66,30 @@ Use this shape:
 <overall impression and risk level>
 
 ## Top red flags
-- <issue>: <why it matters>
-- <issue>: <why it matters>
+- <issue>: <why it matters> ([WCAG 1.1.1](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content))
+- <issue>: <why it matters> ([WCAG 2.4.4](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context))
 
 ## Green flags
 - <good pattern>
 - <good pattern>
 
 ## Likely WCAG references
-- 1.1.1 Non-text Content
-- 1.3.1 Info and Relationships
-- 2.1.1 Keyboard
-- 2.4.3 Focus Order
-- 2.4.7 Focus Visible
-- 3.3.2 Labels or Instructions
+- [1.1.1 Non-text Content](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content)
+- [1.3.1 Info and Relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships)
+- [2.1.1 Keyboard](https://www.w3.org/WAI/WCAG22/Understanding/keyboard)
+- [2.4.3 Focus Order](https://www.w3.org/WAI/WCAG22/Understanding/focus-order)
+- [2.4.4 Link Purpose](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context)
+- [2.4.7 Focus Visible](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible)
+- [3.3.2 Labels or Instructions](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions)
+- [4.1.2 Name, Role, Value](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value)
 
 ## Recommended next steps
 1. <highest priority fix>
 2. <next fix>
 3. <follow-up check>
 ```
+
+When a red flag is present, include the relevant WCAG link directly in that bullet so the user can open the guidance immediately.
 
 ## Rules
 
